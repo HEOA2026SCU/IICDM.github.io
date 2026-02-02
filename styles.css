@@ -56,3 +56,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+#research-plan img {
+    width: 80%;  /* 将图片宽度设置为 80% */
+    margin: 0 auto;  /* 图片居中 */
+    display: block;  /* 图片作为块级元素显示 */
+    max-width: 100%;  /* 确保图片不会超出容器宽度 */
+}
