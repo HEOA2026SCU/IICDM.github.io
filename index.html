@@ -7,48 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>整合式智慧慢病管理模式研究</h1>
-    </header>
 
     <main>
-        <!-- 板块一 - 研究动态 -->
-<section id="research-trends">
-    <h2>研究动态</h2>
-    <ul id="news-links">
-        <!-- 研究动态的链接将通过 JavaScript 动态加载 -->
-    </ul>
-</section>
-
-<!-- 板块二 - 研究成果 -->
-<section id="research-results">
-    <h2>研究成果</h2>
-    <div id="documents">
-        <!-- 研究成果文档将通过 JavaScript 动态加载 -->
-    </div>
-</section>        
-
-<!-- 板块三 - 研究计划 -->
-<section id="research-plan">
-    <h2>研究计划</h2>
-    <div class="image-container">
-        <img src="images/AA.jpg" alt="研究计划" style="width: 40%; margin: 0 auto; display: block;" />
-    </div>
-</section>
-
-<!-- 板块四 - 课题参与单位和人员 -->
-<section id="research-teams">
-    <h2>课题参与单位和人员</h2>
-    <div class="image-container">
-        <img src="images/BB.jpg" alt="课题参与单位和人员" />
-    </div>
-</section>
-
+        <!-- 五个悬浮卡片，排成一排 -->
+        <div class="cards-container">
+            <div class="card" onclick="location.href='trends.html'">
+                <h3>研究动态</h3>
+                <p>会议资讯 · 项目进展</p>
+            </div>
+            <div class="card" onclick="location.href='results.html'">
+                <h3>研究成果</h3>
+                <p>论文发表 · 政策简报</p>
+            </div>
+            <div class="card" onclick="location.href='plan.html'">
+                <h3>研究计划</h3>
+                <p>技术路线 · 年度安排</p>
+            </div>
+            <div class="card" onclick="location.href='teams.html'">
+                <h3>合作单位</h3>
+                <p>合作机构 · 交流进展</p>
+            </div>
+                        <div class="card" onclick="location.href='members.html'">
+                <h3>项目人员</h3>
+                <p>研究团队 · 成员构成</p>
+            </div>
+        </div>
+                <!-- 底部文字 -->
+        <div class="home-footer">
+            <p>
+                <a href="https://www.wcfh.com.cn/gzb" target="_blank" rel="noopener noreferrer">
+                    四川大学华西公共卫生学院/华西第四医院
+                </a>
+            </p>
+            <p>
+                <a href="https://mp.weixin.qq.com/s/RiySqc6Rf8EdMFRQlFWP3g" target="_blank" rel="noopener noreferrer">
+                    健康服务与产业组织（HEOA®）
+                </a>
+            </p>
+        </div>
     </main>
-
-    <footer>
-        <p>&copy;国家科技重大专项“重大慢病防治技术推广机制研究及应用示范”课题“整合式智慧慢病管理模式研究”（编号：2024ZD0523902）@四川大学华西公共卫生学院</p>
-    </footer>
 
     <script src="scripts.js"></script>
 </body>
