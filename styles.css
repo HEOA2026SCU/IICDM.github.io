@@ -344,12 +344,12 @@ footer {
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    gap: 5vw;
+    gap: 7vw;
     justify-content: space-between;
 }
 /* 左侧：会议资讯 */
 .dynamic-section:first-child {
-    flex: 0.7;
+    flex: 0.8;
     min-width: 200px;
 }
 /* 右侧：调研访谈 */
