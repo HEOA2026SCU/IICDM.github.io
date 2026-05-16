@@ -345,6 +345,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 6vw;
+     max-width: 80vw;
     justify-content: space-between;
 }
 /* 左侧：会议资讯 */
