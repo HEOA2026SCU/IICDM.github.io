@@ -344,7 +344,7 @@ footer {
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    gap: 5vw;
+    gap: 6vw;
     justify-content: space-between;
 }
 /* 左侧：会议资讯 */
