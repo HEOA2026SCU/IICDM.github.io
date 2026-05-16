@@ -350,8 +350,8 @@ footer {
 /* 每个板块占一半宽度 */
 .dynamic-section {
     flex: 1;         
-    min-width: 260px;        /* 最小宽度，防止太窄 */
-    max-width: 45%;          /* 可选：限制最大宽度，避免右侧过宽 */
+    min-width: 200px;        /* 最小宽度，防止太窄 */
+    max-width: 40%;          /* 可选：限制最大宽度，避免右侧过宽 */
 }
 /* 板块标题样式 */
 .dynamic-section h2 {
@@ -412,7 +412,7 @@ footer {
 .news-cards-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .news-card {
     background: #ffffff;
@@ -427,7 +427,7 @@ footer {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 .card-image {
-    width: 100%;
+    width: 90%;
     height: 180px;
     overflow: hidden;
     background-color: #f5f5f5;
