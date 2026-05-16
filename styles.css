@@ -344,19 +344,19 @@ footer {
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    gap: 7vw;
+    gap: 5vw;
     justify-content: space-between;
 }
 /* 左侧：会议资讯 */
 .dynamic-section:first-child {
-    flex: 0.8;
+    flex: 0.7;
     min-width: 200px;
 }
 /* 右侧：调研访谈 */
 .dynamic-section:last-child {
     flex: 1;
     min-width: 200px;
-    max-width: 300px;
+    min-width: 300px;
 }
 /* 板块标题样式 */
 .dynamic-section h2 {
