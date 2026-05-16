@@ -344,7 +344,7 @@ footer {
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    gap: 8vw;
+    gap: 5vw;
     justify-content: space-between;
 }
 /* 每个板块占一半宽度 */
