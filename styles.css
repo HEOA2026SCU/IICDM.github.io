@@ -349,7 +349,7 @@ footer {
 }
 /* 每个板块占一半宽度 */
 .dynamic-section {
-    flex: 0.9;         
+    flex: 1;         
     min-width: 200px;        /* 最小宽度，防止太窄 */
     max-width: 40%;          /* 可选：限制最大宽度，避免右侧过宽 */
 }
