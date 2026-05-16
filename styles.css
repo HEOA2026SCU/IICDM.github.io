@@ -356,7 +356,7 @@ footer {
 .dynamic-section:last-child {
     flex: 1;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 300px;
 }
 /* 板块标题样式 */
 .dynamic-section h2 {
