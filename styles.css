@@ -344,7 +344,7 @@ footer {
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    gap: 15vw;
+    gap: 12vw;
     justify-content: space-between;
 }
 /* 每个板块占一半宽度 */
@@ -420,6 +420,8 @@ footer {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    max-width: 320px;
+    width: 100%; 
 }
 .news-card:hover {
     transform: translateY(-4px);
